@@ -1,0 +1,59 @@
+p {
+    text-align: center;
+}
+/* 
+
+left, right, center and justify
+
+The justify alignment spreads the text out so that every line of the text has the same width.
+
+*/
+
+
+/* 
+<div class="parent">
+  <div class="child">
+  </div>
+</div> 
+*/
+
+/* 
+.parent {
+  border: 4px solid red;
+}
+
+.child {
+  width: 50%;
+  padding: 20px;
+  border: 4px solid green;
+}
+*/
+
+
+/* 
+
+<div class="parent">
+  <img src="photo.png" class="child">
+</div>
+
+
+.child {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.child {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.child {
+  float: right;
+}
+
+The float property sets an element's position relative to the text content within a parent element. Text will wrap around the element.
+
+*/

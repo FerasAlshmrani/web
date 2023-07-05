@@ -1,0 +1,44 @@
+/* 
+
+this is a Element selector
+---
+h1{       
+                  => value   
+    color:      gray;                             - declaretion block
+    ^=>propety  
+}
+
+this is a ID Selectors
+---
+#name_id{
+
+}
+
+
+this is class Selector
+---
+.name_class{
+
+
+}
+
+this is desendent Selector
+---
+#blog h1 {
+  color: blue;
+}
+yshof al div w ay h1 yswelha trigger 
+
+
+this is a child selector
+---
+#blog > h1 {
+
+}
+ya54 bs awl div lh
+lakn e4a kan div da5l div mara7 yswelha trigger
+
+
+:hover Pseudo-Class
+
+*/

@@ -1,0 +1,16 @@
+
+h1{
+    color:purple;
+}
+
+#header2{
+    color:blue;
+}
+
+#blog1 h1 {
+    color: greenyellow;
+  }
+
+#blog > h1 {
+    color: red;
+  }
