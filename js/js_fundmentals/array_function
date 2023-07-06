@@ -1,0 +1,35 @@
+function letterFinder(word, match) {
+    for(var i = 0; i < word.length; i++) {
+        if(word[i] == match) {
+            //check if the current characater, word[i], is equal to the match
+            console.log('Found the', match, 'at', i)
+        } 
+        else {
+            console.log('---No match found at', i)
+        }
+    }
+}
+letterFinder("test","t")
+
+
+
+var assistantManager = {
+    rangeTilesPerTurn: 3,
+    socialSkills: 30,
+    streetSmarts: 30,
+    health: 40,
+    specialAbility: "young and ambitious",
+}
+
+// they also add
+assistantManager.socialSkills = 30;
+assistantManager['greeting']="Let's make some money"
+
+
+
+var fruits = [];
+fruits.push("apple"); // ['apple']
+fruits.push('pear'); // ['apple', 'pear']
+
+fruits.pop();
+
