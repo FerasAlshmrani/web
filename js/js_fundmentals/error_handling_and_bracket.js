@@ -51,7 +51,8 @@ There are some other errors in JavaScript. These other errors include:
             console.log(err)
         }
         console.log( a + b )
-    
+        console.log(`you can use this bracket to put numbers inside string for example ${a} , ${b} see ? ${a+b}`)
+        
     }
     
     addTwoNums(5,'5')
